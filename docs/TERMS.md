@@ -6,7 +6,7 @@ _**Last Updated**: December 18, 2024_
 
 By inviting the _Discord_ application `Sgt. Bot#6912` (unique _Discord_ user identifier `1123539193503694898`, hereby
 referred to as "application") to a _Discord_ server ("server"), or by using its features, you agree to the below listed
-_Terms of Service_ ("terms") and _[Privacy Policy](PRIVACY)_ ("policy").
+_Terms of Service_ ("terms") and _[Privacy Policy](PRIVACY.md)_ ("policy").
 
 You may invite the application to a server you have sufficient permissions for and use its sets of features on any
 server you share with it. This privilege can be revoked and the application be removed from the server at any time,

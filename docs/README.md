@@ -140,6 +140,6 @@ Done, you will not forget anymore to watch _Twitch_ streams to get some cool mas
 
 # Links
 
-- _[Terms of Service](TERMS)_
-- _[Privacy Policy](PRIVACY)_
+- _[Terms of Service](TERMS.md)_
+- _[Privacy Policy](PRIVACY.md)_
 - _[Official server](https://discord.gg/tnvwF94xPn)_
