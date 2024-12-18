@@ -1,3 +1,5 @@
+_**Last Updated**: December 18, 2024_
+
 # Introduction
 
 _Sgt. Bot_ is a _Discord_ application that periodically send event messages about video games platforms and communities.
@@ -6,7 +8,6 @@ It can be fully customized using commands to only receive messages about desired
 Some examples of messages:
 
 ![Example 1](images/example1.png)
-
 ![Example 3](images/example2.png)
 
 # Getting Started

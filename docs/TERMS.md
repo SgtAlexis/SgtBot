@@ -1,3 +1,5 @@
+_**Last Updated**: December 18, 2024_
+
 # Terms of Service
 
 ## Usage Agreement
