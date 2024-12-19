@@ -142,4 +142,4 @@ Done, you will not forget anymore to watch _Twitch_ streams to get some cool mas
 
 - _[Terms of Service](TERMS.md)_
 - _[Privacy Policy](PRIVACY.md)_
-- _[Official server](https://discord.gg/tnvwF94xPn)_
+- _[Support server](https://discord.gg/tnvwF94xPn)_
