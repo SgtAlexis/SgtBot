@@ -1,4 +1,4 @@
-_**Last Updated**: December 18, 2024_
+_**Last Updated**: January 2, 2025_
 
 # Introduction
 
@@ -24,15 +24,15 @@ If you want to better configure _Sgt. Bot_, you can see some _[examples](#exampl
 
 # Events
 
-Here is a list of all available events that can be enabled/disabled:
+Here is a list of all available events, that can be enabled/disabled per subscribed channel:
 
 | Name                                  | Description                                                                                                    | Enabled by Default | Related Games                                             |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------|
 | `ApplicationAnnouncements`            | Send messages about new announcements from _Sgt. Bot_.                                                         | Yes                | None                                                      |
 | `SteamAnnouncements`                  | Send messages about new announcements from _Steam Blog_, _Steam Store_, _SteamVR_ and _Steam Deck_ on _Steam_. | No                 | None                                                      |
 | `SteamGamesFreePromotions`            | Send messages about games being temporary free to keep forever on _Steam_.                                     | Yes                | Any                                                       |
-| `SteamGamesAnnouncements`             | Send messages about games having new announcements on _Steam_.                                                 | No                 | Only _Steam_ games owned and wanted by registered players |
 | `SteamGamesHistoricalLowPrices`       | Send messages about games having new historical low prices on _Steam_.                                         | Yes                | Only _Steam_ games wanted by registered players           |
+| `SteamGamesAnnouncements`             | Send messages about games having new announcements on _Steam_.                                                 | No                 | Only _Steam_ games owned and wanted by registered players |
 | `SteamGamesAddOns`                    | Send messages about games having added or removed add-ons on _Steam_.                                          | Yes                | Only _Steam_ games owned and wanted by registered players |
 | `SteamGamesAchievements`              | Send messages about games having added or removed achievements on _Steam_.                                     | Yes                | Only _Steam_ games owned and wanted by registered players |
 | `SteamPlayersGamesCompletions`        | Send messages about players having completed games by earning all their achievements on _Steam_.               | Yes                | Only _Steam_ games owned by registered players            |
@@ -42,7 +42,8 @@ Here is a list of all available events that can be enabled/disabled:
 
 # Games
 
-By default, every game is included.
+Some events are associated to a game, for these you can include/exclude games in a subscribed channel. By default, every
+game is included.
 
 When a specific game is included/excluded, most of the time this applies for every source (e.g. _Steam_, _Twitch_…).
 However, sometimes _Sgt. Bot_ is not able to unify the same game across multiple sources. In that case when
@@ -142,4 +143,4 @@ Done, you will not forget anymore to watch _Twitch_ streams to get some cool mas
 
 - _[Terms of Service](TERMS.md)_
 - _[Privacy Policy](PRIVACY.md)_
-- _[Support server](https://discord.gg/tnvwF94xPn)_
+- _[Support server](https://discord.gg/gFUm33Mh9d)_

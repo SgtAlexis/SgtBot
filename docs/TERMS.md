@@ -1,4 +1,4 @@
-_**Last Updated**: December 18, 2024_
+_**Last Updated**: January 2, 2025_
 
 # Terms of Service
 
@@ -43,5 +43,5 @@ permission for and not using its features.
 ## Contact
 
 People may get in contact through e-mail at `sgt.alexis@gmail.com`, or through the
-application _[support server](https://discord.gg/tnvwF94xPn)_. Other ways of support may be provided but are not
+application _[support server](https://discord.gg/gFUm33Mh9d)_. Other ways of support may be provided but are not
 guaranteed.
