@@ -1,4 +1,4 @@
-_**Last Updated**: January 2, 2025_
+_**Last Updated**: January 13, 2025_
 
 # Introduction
 
@@ -37,8 +37,8 @@ Here is a list of all available events, that can be enabled/disabled per subscri
 | `SteamGamesAchievements`              | Send messages about games having added or removed achievements on _Steam_.                                     | Yes                | Only _Steam_ games owned and wanted by registered players |
 | `SteamPlayersGamesCompletions`        | Send messages about players having completed games by earning all their achievements on _Steam_.               | Yes                | Only _Steam_ games owned by registered players            |
 | `EpicGamesGamesFreePromotions`        | Send messages about games being temporary free to keep forever on _Epic Games_.                                | Yes                | Any                                                       |
-| `TwitchGamesDropsAndRewardsCampaigns` | Send messages about new drops and rewards campaigns on _Twitch_.                                               | Yes                | Any (or none)                                             |
-| `DiscordGamesQuests`                  | Send messages about new quests on _Discord_.                                                                   | Yes                | Any (or none)                                             |
+| `TwitchGamesDropsAndRewardsCampaigns` | Send messages about new drops and rewards campaigns on _Twitch_.                                               | Yes                | Any/None                                                  |
+| `DiscordGamesQuests`                  | Send messages about new quests on _Discord_.                                                                   | Yes                | Any                                                       |
 
 # Games
 
