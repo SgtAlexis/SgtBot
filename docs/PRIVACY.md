@@ -6,7 +6,7 @@ _**Last Updated**: December 18, 2024_
 
 The _Discord_ application may use stored data, as defined below, for different features including but not limited to:
 sending event messages related to players (when enabled) and command handling. No usage of data outside the
-aforementioned cases will happen and the data is not shared with any third-party site or service.
+aforementioned cases will happen, and the data is not shared with any third-party site or service.
 
 ## Stored Information
 
@@ -45,5 +45,5 @@ the right to do so.
 ## External Links
 
 The application may contain links to external websites. The application owner is not responsible for the privacy
-practices or content of these websites and users should review the privacy policies of these websites before providing
+practices or content of these websites, and users should review the privacy policies of these websites before providing
 any personal data.

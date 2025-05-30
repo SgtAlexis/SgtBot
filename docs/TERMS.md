@@ -15,7 +15,7 @@ _[Privacy Policy](https://discord.com/privacy)_ of _[Discord Inc.](https://disco
 _[Community Guidelines](https://discord.com/guidelines)_.
 
 Through inviting the application, you agree to share data as described in the application's policy. The intended use of
-this data is described in said policy.
+this data is described in the said policy.
 
 ## Intended Age
 
@@ -33,7 +33,7 @@ trademarks or other intellectual property.
 
 ## Liability
 
-The owner of the application has faith in a users honesty and that the application may only be used for its intended
+The owner of the application has faith in users' honesty and that the application may only be used for its intended
 purpose and not in malicious ways against others or _Discord Inc_.
 
 We reserve the right to update these terms and policy at our own discretion, giving a one-week period to opt out of the

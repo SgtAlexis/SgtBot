@@ -1,30 +1,31 @@
-_**Last Updated**: January 13, 2025_
+_**Last Updated**: May 30, 2025_
 
 # Introduction
 
-_Sgt. Bot_ is a _Discord_ application that periodically send event messages about video games platforms and communities.
+_Sgt. Bot_ is a _Discord_ application that periodically sends event messages about video games platforms and
+communities.
 It can be fully customized using commands to only receive messages about desired events, games and players.
 
 Some examples of messages:
 
 ![Example 1](images/example1.png)
-![Example 3](images/example2.png)
+![Example 2](images/example2.png)
 
 # Getting Started
 
 - First, you need to add _Sgt. Bot_ to your _Discord_ server. You can invite him by
   clicking [here](https://discord.com/oauth2/authorize?client_id=1123539193503694898).
-- Then to start receiving event messages, you have to subscribe a channel. This can be done using the following command
-  in the desired channel:
+- Then to start receiving event messages, you have to subscribe to a channel. This can be done using the following
+  command in the desired channel:
 	- `/channel-subscribe`
 
-That is all, next time _Sgt. Bot_ will send event messages, you will receive default ones in that channel.
+That is all! Next time _Sgt. Bot_ will send event messages, you will receive default ones in that channel.
 
 If you want to better configure _Sgt. Bot_, you can see some _[examples](#examples)_ below.
 
 # Events
 
-Here is a list of all available events, that can be enabled/disabled per subscribed channel:
+Here is a list of all available events that can be enabled/disabled per subscribed channel:
 
 | Name                                  | Description                                                                                                    | Enabled by Default | Related Games                                             |
 |---------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------|
@@ -37,13 +38,15 @@ Here is a list of all available events, that can be enabled/disabled per subscri
 | `SteamGamesAchievements`              | Send messages about games having added or removed achievements on _Steam_.                                     | Yes                | Only _Steam_ games owned and wanted by registered players |
 | `SteamPlayersGamesCompletions`        | Send messages about players having completed games by earning all their achievements on _Steam_.               | Yes                | Only _Steam_ games owned by registered players            |
 | `EpicGamesGamesFreePromotions`        | Send messages about games being temporary free to keep forever on _Epic Games_.                                | Yes                | Any                                                       |
+| `GogGamesFreePromotions`              | Send messages about games being temporary free to keep forever on _GOG_.                                       | Yes                | Any                                                       |
 | `TwitchGamesDropsAndRewardsCampaigns` | Send messages about new drops and rewards campaigns on _Twitch_.                                               | Yes                | Any/None                                                  |
+| `AmazonGamingGamesFreePromotions`     | Send messages about games being temporary free to keep forever on _Prime Gaming_.                              | No                 | Any                                                       |
 | `DiscordGamesQuests`                  | Send messages about new quests on _Discord_.                                                                   | Yes                | Any                                                       |
 
 # Games
 
-Some events are associated to a game, for these you can include/exclude games in a subscribed channel. By default, every
-game is included.
+Some events are associated with a game, for these you can include/exclude games in a subscribed channel. By default,
+every game is included.
 
 When a specific game is included/excluded, most of the time this applies for every source (e.g. _Steam_, _Twitch_…).
 However, sometimes _Sgt. Bot_ is not able to unify the same game across multiple sources. In that case when
@@ -64,7 +67,7 @@ events require players to have their _Steam_ identifier registered.
 More information about how to get a _Steam_ identifier can be
 found [here](https://help.steampowered.com/faqs/view/2816-BE67-5B69-0FEC).
 
-Note that this may require the _Steam_ profile privacy to be state as public,
+Note that this may require the _Steam_ profile privacy to be stated as public,
 see [here](https://help.steampowered.com/faqs/view/588C-C67D-0251-C276).
 
 # Commands
@@ -90,7 +93,7 @@ When you invite _Sgt. Bot_, it creates those commands on your server:
 
 ## How to configure _Sgt. Bot_ to only receive messages about historical low prices for games I want on _Steam_?
 
-- First, subscribe the channel where you want to receive event messages:
+- First, subscribe to the channel where you want to receive event messages:
 	- `/channel-subscribe`
 
 - Suppose your _Discord_ user is `Gabe Newell#1234` and your _Steam_ identifier is `76561197960287930`, then register
@@ -102,11 +105,11 @@ When you invite _Sgt. Bot_, it creates those commands on your server:
 	- `/channel-event-disable event:(all)`
 	- `/channel-event-enable event:SteamGamesHistoricalLowPrices`
 
-Done, you will now save some money by only buying _Steam_ games at best prices!
+Done! You will now save some money by only buying _Steam_ games at the best prices!
 
 ## How to configure _Sgt. Bot_ to only receive messages about drops for the _PAYDAY 2_ game on _Twitch_?
 
-- First, subscribe the channel where you want to receive event messages:
+- First, subscribe to the channel where you want to receive event messages:
 	- `/channel-subscribe`
 
 - To include only the _PAYDAY 2_ game, you need to exclude them all and then include only the desired game:
@@ -116,7 +119,7 @@ Done, you will now save some money by only buying _Steam_ games at best prices!
 - Because you do not want to receive messages about every event, disable them all before enabling only the event you are
   interested in:
 	- `/channel-event-disable event:(all)`
-	- `/channel-event-enable event:SteamGamesHistoricalLowPrices`
+	- `/channel-event-enable event:TwitchGamesDropsAndRewardsCampaigns`
 
 Done, you will not forget anymore to watch _Twitch_ streams to get some cool masks to flex with in your favorite game!
 
