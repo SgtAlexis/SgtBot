@@ -1,4 +1,4 @@
-_**Last Updated**: May 30, 2025_
+_**Last Updated**: June 2, 2025_
 
 # Introduction
 
@@ -22,6 +22,9 @@ Some examples of messages:
 That is all! Next time _Sgt. Bot_ will send event messages, you will receive default ones in that channel.
 
 If you want to better configure _Sgt. Bot_, you can see some _[examples](#examples)_ below.
+
+If you have an issue, please check the _[troubleshooting](#troubleshooting)_ section of this page or join
+our [support server](https://discord.gg/gFUm33Mh9d).
 
 # Events
 
@@ -135,6 +138,9 @@ Done, you will not forget anymore to watch _Twitch_ streams to get some cool mas
 	- `View Channel`
 	- `Send Messages`/`Send Messages in Threads`
 	- `Embed Links`
+
+After that, if you still do not receive any event message from _Sgt. Bot_, that may be because none has been sent since.
+Eventually, in that case you will have to wait.
 
 # Credits
 
