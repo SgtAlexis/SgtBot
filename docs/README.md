@@ -1,9 +1,17 @@
-_**Last Updated**: June 2, 2025_
+_**Last Updated**: June 4, 2025_
 
 # Introduction
 
-_Sgt. Bot_ is a _Discord_ application that periodically sends event messages about video games platforms and
-communities.
+_Sgt. Bot_ is a _Discord_ application that periodically sends event messages about video games.
+
+For example, it can inform you:
+- About free promotions for games on multiple platforms (_Steam_, _Epic Games_, _GOG_, _Prime Gaming_)
+- When a game from your wishlist reaches a historic low price on _Steam_
+- When any of your games got some add-ons or achievements added/removed on _Steam_
+- When a new drops campaign on _Twitch_ or a new quest on _Discord_ is available
+
+…and more!
+
 It can be fully customized using commands to only receive messages about desired events, games and players.
 
 Some examples of messages:
@@ -44,7 +52,7 @@ Here is a list of all available events that can be enabled/disabled per subscrib
 | `GogGamesFreePromotions`              | Send messages about games being temporary free to keep forever on _GOG_.                                       | Yes                | Any                                                       |
 | `TwitchGamesDropsAndRewardsCampaigns` | Send messages about new drops and rewards campaigns on _Twitch_.                                               | Yes                | Any/None                                                  |
 | `AmazonGamingGamesFreePromotions`     | Send messages about games being temporary free to keep forever on _Prime Gaming_.                              | No                 | Any                                                       |
-| `DiscordGamesQuests`                  | Send messages about new quests on _Discord_.                                                                   | Yes                | Any                                                       |
+| `DiscordGamesQuests`                  | Send messages about new quests on _Discord_.                                                                   | Yes                | Any/None                                                  |
 
 # Games
 
@@ -52,7 +60,7 @@ Some events are associated with a game, for these you can include/exclude games 
 every game is included.
 
 When a specific game is included/excluded, most of the time this applies for every source (e.g. _Steam_, _Twitch_…).
-However, sometimes _Sgt. Bot_ is not able to unify the same game across multiple sources. In that case when
+However, sometimes _Sgt. Bot_ is not able to unify the same game across multiple sources. In that case, when
 including/excluding the game, it may appear multiple times and eventually with the source in parentheses.
 
 Example:
@@ -140,7 +148,37 @@ Done, you will not forget anymore to watch _Twitch_ streams to get some cool mas
 	- `Embed Links`
 
 After that, if you still do not receive any event message from _Sgt. Bot_, that may be because none has been sent since.
-Eventually, in that case you will have to wait.
+Eventually, in that case, you will have to wait.
+
+## I have subscribed a channel to _Sgt. Bot_, but I receive messages about events I am not interested in
+
+While subscribing a channel to _Sgt. Bot_, some events are enabled by default. Enabling new events does not disable
+default ones. To only receive messages from events you are interested in, you should first disable them all.
+
+- This can be achieved with this command:
+	- `/channel-event-disable event:(all)`
+
+- Then, you have to enable events you want one by one, for example with both `TwitchGamesDropsAndRewardsCampaigns` and
+  `DiscordGamesQuests` events:
+	- `/channel-event-enable event:TwitchGamesDropsAndRewardsCampaigns`
+	- `/channel-event-enable event:DiscordGamesQuests`
+
+- Finally, feel free to use the following command to check which events are enabled or not:
+	- `/channel-events`
+
+## I am trying to include a game, but I cannot find it
+
+- First, ensure that keywords you are using are not partial words. This is what the internal search engine is expecting
+  to work properly. For example, you will not find the `Payday 2` game by using the `pay` keyword, but rather using
+  `payday`.
+
+- You may still not find your game at this point. _Sgt. Bot_ only know about games from past events and _Steam_
+  owned/wanted ones from registered players. In that case, please reach us on
+  the [#game-requests](https://discord.com/channels/1279769520885469239/1321856933480894554) channel of
+  our [support server](https://discord.gg/gFUm33Mh9d).
+
+Extra tip: If the missing game is a _Steam_ game, you can add it to the _Steam_ wishlist of a registered player, and
+then wait for _Sgt. Bot_ to process event messages later.
 
 # Credits
 
