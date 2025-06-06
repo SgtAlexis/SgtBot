@@ -1,4 +1,4 @@
-_**Last Updated**: June 4, 2025_
+_**Last Updated**: June 6, 2025_
 
 # Introduction
 
@@ -18,6 +18,8 @@ Some examples of messages:
 
 ![Example 1](images/example1.png)
 ![Example 2](images/example2.png)
+![Example 3](images/example3.png)
+![Example 4](images/example4.png)
 
 # Getting Started
 
