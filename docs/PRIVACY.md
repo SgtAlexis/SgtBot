@@ -4,7 +4,7 @@ _**Last Updated**: December 18, 2024_
 
 ## Usage of Data
 
-The _Discord_ application may use stored data, as defined below, for different features including but not limited to:
+The _Discord_ application may use stored data, as defined below, for different features including but not limited to
 sending event messages related to players (when enabled) and command handling. No usage of data outside the
 aforementioned cases will happen, and the data is not shared with any third-party site or service.
 
