@@ -1,11 +1,11 @@
-_**Last Updated**: June 6, 2025_
+_**Last Updated**: October 29, 2025_
 
 # Introduction
 
 _Sgt. Bot_ is a _Discord_ application that periodically sends event messages about video games.
 
 For example, it can inform you:
-- About free promotions for games on multiple platforms (_Steam_, _Epic Games_, _GOG_, _Prime Gaming_)
+- About free promotions for games on multiple platforms (_Steam_, _Epic Games_, _GOG_, _Amazon Luna_)
 - When a game from your wishlist reaches a historic low price on _Steam_
 - When any of your games got some add-ons or achievements added/removed on _Steam_
 - When a new drops campaign on _Twitch_ or a new quest on _Discord_ is available
@@ -40,21 +40,21 @@ our [support server](https://discord.gg/gFUm33Mh9d).
 
 Here is a list of all available events that can be enabled/disabled per subscribed channel:
 
-| Name                                  | Description                                                                                                    | Enabled by Default | Related Games                                             |
-|---------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------|
-| `ApplicationAnnouncements`            | Send messages about new announcements from _Sgt. Bot_.                                                         | Yes                | None                                                      |
-| `SteamAnnouncements`                  | Send messages about new announcements from _Steam Blog_, _Steam Store_, _SteamVR_ and _Steam Deck_ on _Steam_. | No                 | None                                                      |
-| `SteamGamesFreePromotions`            | Send messages about games being temporary free to keep forever on _Steam_.                                     | Yes                | Any                                                       |
-| `SteamGamesHistoricalLowPrices`       | Send messages about games having new historical low prices on _Steam_.                                         | Yes                | Only _Steam_ games wanted by registered players           |
-| `SteamGamesAnnouncements`             | Send messages about games having new announcements on _Steam_.                                                 | No                 | Only _Steam_ games owned and wanted by registered players |
-| `SteamGamesAddOns`                    | Send messages about games having added or removed add-ons on _Steam_.                                          | Yes                | Only _Steam_ games owned and wanted by registered players |
-| `SteamGamesAchievements`              | Send messages about games having added or removed achievements on _Steam_.                                     | Yes                | Only _Steam_ games owned and wanted by registered players |
-| `SteamPlayersGamesCompletions`        | Send messages about players having completed games by earning all their achievements on _Steam_.               | Yes                | Only _Steam_ games owned by registered players            |
-| `EpicGamesGamesFreePromotions`        | Send messages about games being temporary free to keep forever on _Epic Games_.                                | Yes                | Any                                                       |
-| `GogGamesFreePromotions`              | Send messages about games being temporary free to keep forever on _GOG_.                                       | Yes                | Any                                                       |
-| `TwitchGamesDropsAndRewardsCampaigns` | Send messages about new drops and rewards campaigns on _Twitch_.                                               | Yes                | Any/None                                                  |
-| `AmazonGamingGamesFreePromotions`     | Send messages about games being temporary free to keep forever on _Prime Gaming_.                              | No                 | Any                                                       |
-| `DiscordGamesQuests`                  | Send messages about new quests on _Discord_.                                                                   | Yes                | Any/None                                                  |
+| Name                             | Description                                                                                                    | Enabled by Default | Related Games                                             |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------|
+| `ApplicationAnnouncements`       | Send messages about new announcements from _Sgt. Bot_.                                                         | Yes                | None                                                      |
+| `SteamAnnouncements`             | Send messages about new announcements from _Steam Blog_, _Steam Store_, _SteamVR_ and _Steam Deck_ on _Steam_. | No                 | None                                                      |
+| `SteamGamesFreePromotions`       | Send messages about games being temporary free to keep forever on _Steam_.                                     | Yes                | Any                                                       |
+| `SteamGamesHistoricalLowPrices`  | Send messages about games having new historical low prices on _Steam_.                                         | Yes                | Only _Steam_ games wanted by registered players           |
+| `SteamGamesAnnouncements`        | Send messages about games having new announcements on _Steam_.                                                 | No                 | Only _Steam_ games owned and wanted by registered players |
+| `SteamGamesAddOns`               | Send messages about games having added or removed add-ons on _Steam_.                                          | Yes                | Only _Steam_ games owned and wanted by registered players |
+| `SteamGamesAchievements`         | Send messages about games having added or removed achievements on _Steam_.                                     | Yes                | Only _Steam_ games owned and wanted by registered players |
+| `SteamPlayersGamesCompletions`   | Send messages about players having completed games by earning all their achievements on _Steam_.               | Yes                | Only _Steam_ games owned by registered players            |
+| `EpicGamesGamesFreePromotions`   | Send messages about games being temporary free to keep forever on _Epic Games_.                                | Yes                | Any                                                       |
+| `GogGamesFreePromotions`         | Send messages about games being temporary free to keep forever on _GOG_.                                       | Yes                | Any                                                       |
+| `AmazonLunaGamesFreePromotions`  | Send messages about games being temporary free to keep forever on _Amazon Luna_.                               | No                 | Any                                                       |
+| `TwitchDropsAndRewardsCampaigns` | Send messages about new drops and rewards campaigns on _Twitch_.                                               | Yes                | Any/None                                                  |
+| `DiscordQuests`                  | Send messages about new quests on _Discord_.                                                                   | Yes                | Any/None                                                  |
 
 # Games
 
@@ -132,7 +132,7 @@ Done! You will now save some money by only buying _Steam_ games at the best pric
 - Because you do not want to receive messages about every event, disable them all before enabling only the event you are
   interested in:
 	- `/channel-event-disable event:(all)`
-	- `/channel-event-enable event:TwitchGamesDropsAndRewardsCampaigns`
+	- `/channel-event-enable event:TwitchDropsAndRewardsCampaigns`
 
 Done, you will not forget anymore to watch _Twitch_ streams to get some cool masks to flex with in your favorite game!
 
@@ -160,10 +160,10 @@ default ones. To only receive messages from events you are interested in, you sh
 - This can be achieved with this command:
 	- `/channel-event-disable event:(all)`
 
-- Then, you have to enable events you want one by one, for example with both `TwitchGamesDropsAndRewardsCampaigns` and
-  `DiscordGamesQuests` events:
-	- `/channel-event-enable event:TwitchGamesDropsAndRewardsCampaigns`
-	- `/channel-event-enable event:DiscordGamesQuests`
+- Then, you have to enable events you want one by one, for example with both `TwitchDropsAndRewardsCampaigns` and
+  `DiscordQuests` events:
+	- `/channel-event-enable event:TwitchDropsAndRewardsCampaigns`
+	- `/channel-event-enable event:DiscordQuests`
 
 - Finally, feel free to use the following command to check which events are enabled or not:
 	- `/channel-events`
